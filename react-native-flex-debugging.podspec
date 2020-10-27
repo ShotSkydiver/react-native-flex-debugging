@@ -9,20 +9,15 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   react-native-flex-debugging
                    DESC
-  s.homepage     = "https://github.com/github_account/react-native-flex-debugging"
-  # brief license entry:
+  s.homepage     = "https://github.com/ShotSkydiver/react-native-flex-debugging"
   s.license      = "MIT"
-  # optional - use expanded license entry instead:
-  # s.license    = { :type => "MIT", :file => "LICENSE" }
-  s.authors      = { "Your Name" => "yourname@email.com" }
-  s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/github_account/react-native-flex-debugging.git", :tag => "#{s.version}" }
+  s.author       = { "Your Name" => "yourname@email.com" }
+  s.platform     = :ios, "9.0"
+  s.source       = { :git => "https://github.com/ShotSkydiver/react-native-flex-debugging.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,c,m,mm,swift}"
   s.requires_arc = true
 
   s.dependency "React"
-  # ...
-#   s.dependency 'FLEX', '4.1.1'
+  s.dependency 'FLEX', '4.2.0'
 end
-

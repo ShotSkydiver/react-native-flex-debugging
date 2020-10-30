@@ -1,5 +1,5 @@
 #import "FlexDebugging.h"
-#import "FLEXManager.h"
+#import <FLEX/FLEXManager+Networking.h>
 
 @implementation FlexDebugging
 
@@ -23,6 +23,13 @@ RCT_EXPORT_METHOD(toggleExplorer)
 {
 dispatch_async(dispatch_get_main_queue(), ^{
     [[FLEXManager sharedManager] toggleExplorer];
+});
+}
+
+RCT_EXPORT_METHOD(setNetworkLogging)
+{
+dispatch_async(dispatch_get_main_queue(), ^{
+    [[FLEXManager sharedManager] setNetworkDebuggingEnabled:true];
 });
 }
 

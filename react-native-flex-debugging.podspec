@@ -12,12 +12,12 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/ShotSkydiver/react-native-flex-debugging"
   s.license      = "MIT"
   s.author       = { "Your Name" => "yourname@email.com" }
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/ShotSkydiver/react-native-flex-debugging.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,c,m,mm,swift}"
   s.requires_arc = true
 
-  s.dependency "React"
+  s.dependency "React-Core"
   s.dependency "FLEX", "~> 4.2.1"
 end

@@ -35,7 +35,7 @@
   "readmeFilename": "README.md",
   "peerDependencies": {
     "react": ">=16.13.3",
-    "react-native": ">=0.62"
+    "react-native": ">=0.63"
   },
   "devDependencies": {
     "react": "^16.13.1",

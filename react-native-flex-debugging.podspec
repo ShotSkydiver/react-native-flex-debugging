@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React-Core"
-  s.dependency "FLEX", "~> 4.2.1"
+  s.dependency "FLEX"
 end
